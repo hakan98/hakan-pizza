@@ -1,31 +1,26 @@
-# Hakan Pizza - Full-Stack E-Commerce Application
+# 🍕 Hakan Pizza - Full-Stack Online Delivery App
 
-A modern pizza ordering platform built with **Next.js**, **React**, and **MongoDB**. This project demonstrates a complete flow from product listing to database-driven order management.
+A professional pizza ordering system built with **Next.js**, **React**, and **MongoDB**. 
 
-## 🚀 Features
-- **Dynamic Menu:** Fetches pizza data directly from MongoDB.
-- **Cart Management:** Real-time cart updates using React's `useState`.
-- **Order System:** Stores customer orders in a dedicated database collection.
-- **Responsive Design:** Optimized for both desktop and mobile users.
-- **Docker Integration:** Database runs in a containerized environment for consistent development.
+## 🎯 Project Purpose
+I developed this project to simulate a real-world e-commerce environment, focusing on database integration and responsive UI/UX design.
 
-## 🛠 Tech Stack
-- **Frontend:** Next.js (React), CSS Modules
-- **Backend:** Next.js API Routes (Node.js)
-- **Database:** MongoDB
-- **Infrastructure:** Docker
+## 🛠 Tech Stack & Tools
+- **Framework:** Next.js (App Router)
+- **Database:** MongoDB (Containerized with Docker)
+- **Styling:** Modular CSS (Focusing on Responsive Design)
+- **Version Control:** Git/GitHub
 
-## 🔧 Installation & Setup
+## 🚀 Technical Highlights
+- **State Management:** Handled complex cart operations using React Hooks.
+- **Database Relations:** Implemented order tracking linked to pizza products.
+- **Image Optimization:** Fixed layout issues to ensure a professional look on all screen sizes.
 
-1. **Clone the repository:**
-   git clone [https://github.com/hakan98/hakan-pizza.git]
+## ⚙️ How to Run Locally
+1. Clone the repo: `git clone https://github.com/hakan98/hakan-pizza`
+2. Install packages: `npm install` in both root and sub-directories.
+3. Start Database: Ensure Docker is running.
+4. Run: `npm run dev`
 
-2. **Install dependencies:**
-   # In both frontend and backend directories
-   npm install
-
-3. **Database Setup: Ensure Docker is running and start your MongoDB container:**
-    docker start <your-container-name>
-
-4. **Run the Application:**
-    npm run dev
+## 📬 Contact
+If you are a recruiter in Switzerland, feel free to check my code and reach out!
