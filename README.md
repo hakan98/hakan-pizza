@@ -1,51 +1,22 @@
-# Hakan Pizza - Next.js & Express & MongoDB
+# Hakan Pizza - Full-Stack E-Commerce Application
 
-İki parçalı (frontend + backend) pizza restoranı örnek projesi. Özellikler:
-- Kayıt / giriş (JWT)
-- Pizza menüsü listeleme
-- Sepet yönetimi
-- Kapıda ödeme seçeneğiyle sipariş oluşturma
+A modern pizza ordering platform built with **Next.js**, **React**, and **MongoDB**. This project demonstrates a complete flow from product listing to database-driven order management.
 
-## Proje yapısı
-```
-backend/   -> Express API (auth, pizzas, orders)
-frontend/  -> Next.js (login, register, menü, sepet, siparişler)
-```
+## 🚀 Features
+- **Dynamic Menu:** Fetches pizza data directly from MongoDB.
+- **Cart Management:** Real-time cart updates using React's `useState`.
+- **Order System:** Stores customer orders in a dedicated database collection.
+- **Responsive Design:** Optimized for both desktop and mobile users.
+- **Docker Integration:** Database runs in a containerized environment for consistent development.
 
-## Backend (Express)
-Ortam değişkeni örneği: `backend/env.sample` dosyasını `.env` olarak kopyalayın.
-```bash
-cd backend
-npm install
-cp env.sample .env   # gerekirse düzenleyin
-npm run dev          # localhost:5001
-```
+## 🛠 Tech Stack
+- **Frontend:** Next.js (React), CSS Modules
+- **Backend:** Next.js API Routes (Node.js)
+- **Database:** MongoDB
+- **Infrastructure:** Docker
 
-### API uçları
-- `POST /api/auth/register` { name, email, password }
-- `POST /api/auth/login` { email, password } -> { token }
-- `GET /api/pizzas`
-- `POST /api/orders` (Bearer token) body: { items: [{ pizzaId, quantity }], paymentMethod: 'cash' }
-- `GET /api/orders/me` (Bearer token)
+## 🔧 Installation & Setup
 
-## Frontend (Next.js)
-```bash
-cd frontend
-npm install
-export NEXT_PUBLIC_API_URL=http://localhost:5001/api
-npm run dev          # localhost:3000
-```
-
-Sayfalar:
-- `/` menü, sepete ekleme
-- `/login` giriş
-- `/register` kayıt
-- `/cart` sepet ve sipariş oluşturma
-- `/orders` geçmiş siparişler
-- `/order-confirmation` sipariş sonucu
-
-## Notlar
-- MongoDB varsayılan bağlantı: `mongodb://localhost:27017/hakanpizza`
-- JWT saklama: frontend localStorage, isteklerde Authorization: Bearer {token}
-- `backend/src/controllers/pizzaController` ilk istek geldiğinde örnek pizza kayıtları ekler.
-
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/hakan98/hakan-pizza.git]
