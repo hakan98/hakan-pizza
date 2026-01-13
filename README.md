@@ -18,5 +18,14 @@ A modern pizza ordering platform built with **Next.js**, **React**, and **MongoD
 ## 🔧 Installation & Setup
 
 1. **Clone the repository:**
-   ```bash
    git clone [https://github.com/hakan98/hakan-pizza.git]
+
+2. **Install dependencies:**
+   # In both frontend and backend directories
+   npm install
+
+3. **Database Setup: Ensure Docker is running and start your MongoDB container:**
+    docker start <your-container-name>
+
+4. **Run the Application:**
+    npm run dev
