@@ -23,6 +23,11 @@ with a focus on order flow, data persistence, and responsive design.
 - Worked on responsive layout issues to ensure the UI works well on different screen sizes.
 - Focused on keeping the code readable and easy to maintain.
 
+## API Endpoints
+- GET /api/pizzas → list all pizzas
+- POST /api/orders → create a new order
+- GET /api/orders/:id → get order status
+
 ## Project Status
 This project is still being improved. I regularly refactor the code and add small
 enhancements as I continue learning.
