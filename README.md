@@ -1,26 +1,43 @@
-# 🍕 Hakan Pizza - Full-Stack Online Delivery App
+# Hakan Pizza – Full-Stack Online Delivery App
 
-A professional pizza ordering system built with **Next.js**, **React**, and **MongoDB**. 
+This is a full-stack pizza ordering application built as a personal project.
 
-## 🎯 Project Purpose
-I developed this project to simulate a real-world e-commerce environment, focusing on database integration and responsive UI/UX design.
+The main purpose of the project is to practice building a real-world ordering flow,
+including frontend UI, backend logic, and database integration.
 
-## 🛠 Tech Stack & Tools
-- **Framework:** Next.js (App Router)
-- **Database:** MongoDB (Containerized with Docker)
-- **Styling:** Modular CSS (Focusing on Responsive Design)
-- **Version Control:** Git/GitHub
+## Project Purpose
+I developed this project to better understand how an e-commerce style application works,
+with a focus on order flow, data persistence, and responsive design.
 
-## 🚀 Technical Highlights
-- **State Management:** Handled complex cart operations using React Hooks.
-- **Database Relations:** Implemented order tracking linked to pizza products.
-- **Image Optimization:** Fixed layout issues to ensure a professional look on all screen sizes.
+## Tech Stack
+- Next.js (App Router)
+- React
+- MongoDB
+- CSS Modules
+- Git / GitHub
+- Docker (for local database setup)
 
-## ⚙️ How to Run Locally
-1. Clone the repo: `git clone https://github.com/hakan98/hakan-pizza`
-2. Install packages: `npm install` in both root and sub-directories.
-3. Start Database: Ensure Docker is running.
-4. Run: `npm run dev`
+## Technical Details
+- Implemented cart logic using React hooks.
+- Built basic order tracking linked to pizza products.
+- Worked on responsive layout issues to ensure the UI works well on different screen sizes.
+- Focused on keeping the code readable and easy to maintain.
 
-## 📬 Contact
-If you are a recruiter in Switzerland, feel free to check my code and reach out!
+## Project Status
+This project is still being improved. I regularly refactor the code and add small
+enhancements as I continue learning.
+
+## How to Run Locally
+1. Clone the repository  
+   `git clone https://github.com/hakan98/hakan-pizza`
+
+2. Install dependencies  
+   `npm install` (in both frontend and backend folders)
+
+3. Make sure Docker is running for MongoDB.
+
+4. Start the project  
+   `npm run dev`
+
+## Contact
+Feel free to review the code or reach out if you have any questions.
